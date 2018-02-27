@@ -1,0 +1,218 @@
+/*Consistent styling throughout site*/
+Body {
+  margin: 0;
+  /*background: #B9B9B9;
+  background: -webkit-linear-gradient(60deg, #FEFEFE, #B9B9B9);
+  background:    -moz-linear-gradient(60deg, #FEFEFE, #B9B9B9);
+  background:         linear-gradient(60deg, #FEFEFE, #B9B9B9);*/
+  font-family: 'arial';
+}
+
+.full {
+	margin-left: 50px;
+  /*border: solid;*/
+}
+
+
+/*Decrease Logo Size for Navigation Bar*/
+#sizelogo  {
+max-height:  130px;
+max-width: 130px;
+/*border: solid;*/
+
+
+/*margin-left: 125px;*/
+/*positon: absolute;*/
+}
+
+/*.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 1200px;
+	position: relative;
+	margin: auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+}*/
+
+/*Navigation Bar styling*/
+#navbar {
+  /*text-transform: uppercase;*/
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: inherit;
+  /*border: solid;*/
+  letter-spacing: 2px;
+  margin-left: 10px;
+  padding: 10px;
+  white-space: nowrap;
+  /*border: solid;*/
+}
+
+h3 {
+  color: #214F78;
+  text-align:right;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 300px;
+  letter-spacing: 1px;
+  width: 1020px;
+  /*vertical-align: super;*/
+  font-style: italic;
+  /*border: solid;*/
+}
+
+#slogan {
+  font-family: lobster;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-indent: 500px;
+  white-space: nowrap;
+  /*border: solid;*/
+
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-color: #212227;
+  /*border: solid;*/
+}
+
+ul li {
+  /*border: solid;*/
+  diplay: inline;
+  /*position: absolute;*/
+  float: left;
+  /*min-width: 100px;*/
+  height: 20px;
+  /*background-color: #A1C5E3;*/
+  font-size: 16px;
+  /*opacity: .8;*/
+  text-align: center;
+  line-height: 30px;
+  /*font-size: 20px;*/
+  /*font-weight: 300;*/
+  /*position: relative;*/
+  padding: 12px 16px;
+  box-shadow:0 8px 16px 0 #B9B9B9;
+}
+
+ul li a {
+  text-decoration: none;
+  /*color: #FEFEFE;*/
+  display: inline-block;
+  /*border: solid;*/
+}
+
+ul li a:hover {
+background-color: #8AB6E2;
+opacity: .6;
+/*border: solid;*/
+}
+
+/*ul li ul li {
+  display: none;
+}
+
+ul li hover: ul li {
+  display: block;
+}*/
+
+/*.navtitles {
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: arial;
+
+  text-decoration-line:none;*/
+  /*Figure out how to align the text vertically to the middle*/
+  /*vertical-align: middle;*/
+  /*word-spacing: 20px;
+  position: relative;
+  white-space: nowrap;
+}*/
+
+div h1 {
+background-color: #8693AB;
+font: 20px;
+margin: 0px 10px;
+/*margin-left: 20px;
+margin-right: 20px;*/
+padding: 10px 10px;
+position: relative;
+z-index: 0;
+opacity: .5;
+/*border: solid;*/
+}
+
+div h3 {
+  /*margin: 40px;*/
+  /*border: solid;*/
+}
+
+.para {
+		/*background:100% fixed;*/
+		background-size: cover;
+		padding: 50px;
+	}
+.parainner {
+		padding: 50px;
+
+	}
+
+#landinglogo {
+  border: solid white;
+		border-radius: 50%;
+		width: 50px: height 50px;
+}
+
+
+/*#indexpic {*/
+  /*image-resolution: snap;
+  margin-top: 115px;
+
+  border-radius: 15px 50px;
+
+  height: auto;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 1080px;
+  padding-bottom: 40px;
+  width: 1200px;*/
+  /*margin-left: 20px;
+  margin-right: 20px;*/
+  /*border: solid;
+
+}*/
+
+footer{
+  border: solid;
+  display: block;
+  margin: 0;
+  /*display: block;*/
+  color: #FEFEFE;
+  opacity: .4;
+  text-align: center;
+
+  /*Grey spanned across the entire page but got thrown off by an edit*/
+
+  font: arial;
+  font-weight: 200;
+  padding: 10px;
+  background: #637074;
+
+  /*To keep footer from floating to the top and being thrown off by other blocks*/
+  position: relative;
+  bottom: 0;
+  /*z-index: 9999;*/
+}
